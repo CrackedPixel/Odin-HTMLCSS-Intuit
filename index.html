@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en=us">
+<html lang="en-us">
   <head>
       <title>Intuit Login</title>
       <link rel="stylesheet" href="css/index.css">
@@ -22,17 +22,17 @@
           <div class="logoTT"></div>
       </div>
       <article class="loginContainer">
-        <span class="mainHeader">Create an Intuit account</span>
+        <h1 class="mainHeader">Create an Intuit account</h1>
         <span>One account for everything Intuit, including Mint.</span>
         <a href="#" class="underlineHover">Learn more</a>
         <form action="/create" method="post">
           <label for="user_email">Email address</label>
-          <input type="email" required>
+          <input id="user_email" type="email" required>
           <label for="user_phone">Phone (recommended)</label>
-          <input type="tel">
+          <input id="user_phone" type="tel">
           <span>Standard call, messaging, or data rates may apply.</span>
           <label for="user_pass">Password</label>
-          <input type="password">
+          <input id="user_pass" type="password">
           <i class="fa fa-lock fa-2x overlayLock"></i>
           <button class="createBtn"><i class="fa fa-lock"></i>Create Account</button>
         </form>
