@@ -1,0 +1,209 @@
+html {
+  font-size: 62.5%;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background: #ECEEF1;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loginBar {
+  display: flex;
+  justify-content: flex-end;
+  height: fit-content;
+  margin: 0 1rem 2rem 0;
+}
+
+.loginBar span {
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+}
+
+.signInBtn {
+  display: flex;
+  justify-content: center;
+  border: 1px solid 505050;
+  border-radius: 5px;
+  height: 3.5rem;
+  width: 10rem;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  background: #0077c5;
+}
+
+.signInBtn i {
+  margin: 0 0.5rem 0 0;
+}
+
+.signInBtn span {
+  font-size: 1.25rem;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  align-items: center;
+}
+
+.imageContainer {
+  display: block;
+  position: relative;
+}
+
+.logo {
+  width: 118px;
+  height: 37px;
+  background-image: url("../img/logo.png");
+}
+
+.productsList {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.logoMint {
+  width: 70px;
+  height: 30px;
+  background-image: url("../img/logo.png");
+  background-position: -250px 30px;
+}
+
+.logoQB {
+  width: 135px;
+  height: 30px;
+  background-image: url("../img/logo.png");
+  background-position: -110px 30px;
+}
+
+.logoTT {
+  width: 105px;
+  height: 30px;
+  background-image: url("../img/logo.png");
+  background-position: 0 30px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 35rem;
+  height: fit-content;
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  font-weight: 400;
+  /* padding: 1rem 2rem 1rem 2rem; */
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.loginContainer form {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 1.5rem;
+  width: 80%;
+  color: #404040;
+}
+
+.loginContainer form span {
+  font-size: 1rem;
+  margin-top: -1.7rem;
+  margin-bottom: 2.7rem;
+}
+
+.loginContainer label {
+  margin-bottom: 1rem;
+}
+
+.loginContainer input {
+  margin-bottom: 2rem;
+  height: 3rem;
+  border-radius: 3px;
+  border: 1px solid #C1C5C8;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.7rem;
+}
+
+.overlayLock {
+  float: right;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 250px;
+  height: 3rem;
+  z-index: 5;
+  color: lightgrey;
+}
+
+.createBtn {
+  height: 4.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background-color: #0077c5;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.createBtn i {
+  margin-right: 1rem;
+}
+
+.tosArea {
+  text-align: center;
+  font-style: italic;
+  color: #757575;
+  font-size: 1.2rem;
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+.mainHeader {
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin: 2rem;
+}
+
+.recaptcha {
+  background-color: #ECEEF1;
+  color: #8d9096;
+  font-size: 1rem;
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  width: 40%;
+  margin-top: 4rem;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #505050;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer span {
+  margin-top: 0.5rem;
+}
+
+footer a {
+  color: #505050;
+}
+
+.underlineHover:hover {
+  text-decoration: underline;
+}
